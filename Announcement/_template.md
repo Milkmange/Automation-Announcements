@@ -1,5 +1,3 @@
-# [Date]
-
 ## [Announcement Topic Title]
 
 [Text of the Announcment inserted here]
