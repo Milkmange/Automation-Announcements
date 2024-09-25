@@ -1,5 +1,5 @@
 # Automation Announcement
-This repository will contain CVE Program Automation Announcments targetted at CVE Record Suppliers (e.g., CVE Numbering Authorities) and downstream users of CVE vulnerability information housed in the  [CVE Record Repository](https://github.com/CVEProject/cvelistV5).  Each announcement will be contained in a single Announcement file.  
+This repository contains CVE Program Automation Announcements that are made at the Automation Working Group meetings concerning the status/upcoming changes to the CVE Program Automation Infrastructure.  CVE Record Suppliers (e.g., CVE Numbering Authorities) and downstream users of CVE vulnerability information housed in the  [CVE Record Repository](https://github.com/CVEProject/cvelistV5) may also find these announcements useful.  Each announcement will be contained in a single Announcement file with the file name CVEAutomationAnnouncementYYYYMMDD (where YYYYMMDD reflects the date .. e.g.,20240925)
 
 Announcements will include (but not be limited to):
 - Upcoming CVE Record Format Changes
