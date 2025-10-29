@@ -1,6 +1,6 @@
 ## CVE Record Format update to version 5.2.0; Support for PURL
 
-On October 29, 2025 CVE Record Format 5.2.0 (view [RC1 release notes](https://github.com/example-CVE-Record-Format-5.2.0-Release-Notes)) was released (as part of the CVE Services v2.6.0 upgrade) to support the Package URL (PURL) specification for identifying software packages, components, and libraries. Adding PURL support in the new CVE Record Format continues the evolution of the CVE Record Format to provide additional information of value to the downstream consumer.
+On October 29, 2025 CVE Record Format 5.2.0 was released (as part of the CVE Services v2.6.0 upgrade) to support the Package URL (PURL) specification for identifying software packages, components, and libraries. Adding PURL support in the new CVE Record Format continues the evolution of the CVE Record Format to provide additional information of value to the downstream consumer.
 
 The key updates for the new release will include:
 - Support for PURL (Package URL) identifiers using the `packageURL` property within the affected array items (i.e., product objects).
@@ -9,7 +9,7 @@ The key updates for the new release will include:
 
 ## Impact
 
-Although an important new feature, the addition of this new PURL support will have limited impact to current CVE record processing for most downstream users and CNAs as the fields are "optional" and the previous fields remain the same.
+The addition of this new PURL support will not have a negative impact on current processing of CVE Records for most downstream users and CNAs as the fields are "optional" and the previous fields remain the same.
 
 See the [CVE Record Format version 5.2.0 release notes](https://github.com/CVEProject/cve-schema/releases/tag/v5.2.0) for a complete description of this format update.
 
@@ -33,4 +33,5 @@ For more information on the features, bugs, etc., noted above, and additional co
 - [CVE Services 2.6.0 Release Notes](https://github.com/example-CVE-Services-2.6.0-Release-Notes)
 
 - 
+
 
