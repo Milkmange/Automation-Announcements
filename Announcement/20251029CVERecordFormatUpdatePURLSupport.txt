@@ -1,0 +1,33 @@
+## [Announcement Topic Title]
+
+On October 29, 2025  CVE Record Format 5.2.0 (view RC1 release notes) was released (as part of the CVE Services v2.6.0 upgrade) to support the Package URL (PURL) specification for identifying software packages, components, and libraries. Adding PURL support in the new CVE Record Format continues the evolution of the CVE Record Format to provide additional information of value to the downstream consumer.  
+
+The key updates for the new release will include: 
+- Support for PURL (Package URL) identifiers using the packageURL property within the affected array items (i.e., product objects). 
+- Adding additionalProperties equal to false for the affected array items. New or renamed properties will no longer allow for affected array items (i.e., product objects). 
+- Updates will be made to the example CVE Records including PURL examples, tag examples, and a fix to improve compliance with the CNA Rules. 
+
+## Impact 
+Although an important new feature, the addition of this new PURL support will have limited impact to current CVE record processing for most downstream users and CNA as the fields are "optional" and the previous fields remain the same.  
+
+See the [CVE Record Format version 5.2.0 release notes](https://github.com/CVEProject/cve-schema/releases/tag/v5.2.0) for a complete description of this format update.    
+
+## Important Vulnogram Compatibility Update
+
+Vulnogram is a widely used tool for creating and editing CVE information in CVE JSON format, and for generating advisories. A live instance of Vulnogram is available and can be used immediately for creating and submitting CVE Records.  It has been recently updated to allow loading of the new CVE Record Format 5.2.0 Records.
+
+**NOTE:** If you have either forked or developed tools based on Vulnogram, you may need to update your code to support loading of 5.2.0 CVE Records. View an example of this update in a Github commit [here](https://github.com/example-commit).
+
+
+## Guidance
+
+Although there should be no immediate impact to most Downstream Users and CNAs,  they should be aware of the possibility of this new information and prepare for its future use. 
+
+The use of PURLs will provide an additional machine-readable identifier for identifying affected (or unaffected) products within a CVE Record. When included, the PURLs provided should align with the human-readable product and version properties already required when producing CVE Records. It’s possible and expected that the product names and PURL names will not match up exactly. CNAs should avoid providing PURLs that do not match up with the human-readable information already provided (and required) within the affected array product and version properties.
+ 
+## Detailed Release Notes
+
+For more information on the features, bugs, etc., noted above, and additional compatibility considerations, please see the following:
+
+- [CVE Record Format Version 5.2.0 Release Notes](https://github.com/example-CVE-Record-Format-5.2.0-Release-Notes)
+- [CVE Services 2.6.0 Release Notes](https://github.com/example-CVE-Services-2.6.0-Release-Notes)
