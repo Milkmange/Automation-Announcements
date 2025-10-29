@@ -31,11 +31,6 @@ For more information on the features, bugs, etc., noted above, and additional co
 
 - [CVE Record Format Version 5.2.0 Release Notes](https://github.com/example-CVE-Record-Format-5.2.0-Release-Notes)
 - [CVE Services 2.6.0 Release Notes](https://github.com/example-CVE-Services-2.6.0-Release-Notes)
-Changes Made:
-Replaced narrow no-break spaces with regular spaces.
-Corrected link formatting to ensure proper rendering.
-Added backticks () around code-like terms such as packageURLandadditionalProperties` for clarity.
-Verified list formatting and headings for proper Markdown syntax.
-- [CVE Record Format Version 5.2.0 Release Notes](https://github.com/example-CVE-Record-Format-5.2.0-Release-Notes)
 
-- [CVE Services 2.6.0 Release Notes](https://github.com/example-CVE-Services-2.6.0-Release-Notes)
+- 
+
