@@ -17,7 +17,7 @@ See the [CVE Record Format version 5.2.0 release notes](https://github.com/CVEPr
 
 Vulnogram is a widely used tool for creating and editing CVE information in CVE JSON format, and for generating advisories. A live instance of Vulnogram is available and can be used immediately for creating and submitting CVE Records. It has been recently updated to allow loading of the new CVE Record Format 5.2.0 Records.
 
-**NOTE:** If you have either forked or developed tools based on Vulnogram, you may need to update your code to support loading of 5.2.0 CVE Records. View an example of this update in a GitHub commit [here](https://github.com/example-commit).
+**NOTE:** If you have either forked or developed tools based on Vulnogram, you may need to update your code to support loading of 5.2.0 CVE Records. View an example of this update in a GitHub commit [here](https://github.com/Vulnogram/Vulnogram/commit/e368607e0768a656270d79dc881850e30935aa7b)).
 
 ## Guidance
 
@@ -33,5 +33,6 @@ For more information on the features, bugs, etc., noted above, and additional co
 - [CVE Services 2.6.0 Release Notes](https://github.com/example-CVE-Services-2.6.0-Release-Notes)
 
 - 
+
 
 
