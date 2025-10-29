@@ -32,7 +32,7 @@ For more information on the features, bugs, etc., noted above, and additional co
 - [CVE Record Format Version 5.2.0 Release Notes](https://github.com/CVEProject/cve-schema/releases/tag/v5.2.0)
 - [CVE Services 2.6.0 Release Notes](https://github.com/CVEProject/cve-services/releases/tag/v2.6.0)
 
-- 
+
 
 
 
