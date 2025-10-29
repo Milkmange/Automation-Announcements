@@ -29,10 +29,11 @@ The use of PURLs will provide an additional machine-readable identifier for iden
 
 For more information on the features, bugs, etc., noted above, and additional compatibility considerations, please see the following:
 
-- [CVE Record Format Version 5.2.0 Release Notes](https://github.com/example-CVE-Record-Format-5.2.0-Release-Notes)
-- [CVE Services 2.6.0 Release Notes](https://github.com/example-CVE-Services-2.6.0-Release-Notes)
+- [CVE Record Format Version 5.2.0 Release Notes](https://github.com/CVEProject/cve-schema/releases/tag/v5.2.0)
+- [CVE Services 2.6.0 Release Notes](https://github.com/CVEProject/cve-services/releases/tag/v2.6.0)
 
 - 
+
 
 
 
